@@ -11,6 +11,7 @@ const EventList = () => {
   };
 
   const handleCloseModal = () => {
+    
     setSelectedEvent(null);
   };
 
