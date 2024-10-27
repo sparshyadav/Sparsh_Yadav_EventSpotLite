@@ -13,10 +13,10 @@ const VideoBackground = () => {
                 <source src={video} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
-            <div className="relative z-10 flex items-center justify-center h-full text-white text-center bg-black bg-opacity-50">
+            <div className="relative z-10 flex flex-col-reverse h-full text-white px-40 py-24 bg-black bg-opacity-50">
                 <div>
-                    <h1 className="text-4xl font-bold">EventSpotLite</h1>
-                    <p className="mt-4 text-lg">Your goto place for events happening near you.</p>
+                    <h1 className="text-[75px] font-bold">EventSpotLite</h1>
+                    <p className="mt-4 text-[35px]">Your goto place for events happening near you.</p>
                 </div>
             </div>
         </div>
