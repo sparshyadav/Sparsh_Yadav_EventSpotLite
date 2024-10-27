@@ -2,7 +2,7 @@ import React from 'react';
 
 const EventCard = ({ event, onClick }) => {
   return (
-    <div className="border rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
+    <div className="border bg-[#03000A] rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-4">
       <img src={event.image} alt={event.name} className="w-full h-40 object-cover rounded-t-lg" />
       <h2 className="text-lg font-bold mt-2">{event.name}</h2>
       <p className="text-gray-600">{event.date}</p>

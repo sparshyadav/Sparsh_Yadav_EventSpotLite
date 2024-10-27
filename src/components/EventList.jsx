@@ -16,8 +16,8 @@ const EventList = () => {
   };
 
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-4">Upcoming Events</h1>
+    <div className="container mx-auto p-4 bg-[#1F182F]">
+      <h1 className="text-3xl font-bold mb-4 text-white">Upcoming Events</h1>
       <div className="flex flex-wrap justify-between">
         {events.map(event => (
           <div className="w-full sm:w-1/2 lg:w-1/3 mb-4" key={event.id}>
