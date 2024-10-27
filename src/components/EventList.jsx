@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import EventModal from './EventModal.jsx';
 import { events } from '../data.js';
-import EventCard from './EveneCard.jsx';
+import EventCard from './EventCard.jsx';
 
 const EventList = () => {
   const [selectedEvent, setSelectedEvent] = useState(null);

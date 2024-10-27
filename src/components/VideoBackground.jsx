@@ -1,4 +1,3 @@
-// src/components/VideoBackground.jsx
 import React from 'react';
 import video from "../assets/video2.mp4";
 
@@ -9,7 +8,7 @@ const VideoBackground = () => {
                 autoPlay 
                 loop 
                 muted 
-                className="absolute top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto transform -translate-x-1/2 -translate-y-1/2"
+                className="absolute top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto transform -translate-x-1/2 -translate-y-1/2 z-0"
             >
                 <source src={video} type="video/mp4" />
                 Your browser does not support the video tag.
@@ -23,5 +22,6 @@ const VideoBackground = () => {
         </div>
     );
 };
+
 
 export default VideoBackground;

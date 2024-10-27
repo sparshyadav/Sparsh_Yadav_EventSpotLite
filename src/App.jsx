@@ -1,14 +1,14 @@
-// src/App.jsx
 import React from 'react';
-import VideoBackground from './components/VideoBackground';
-import EventList from './components/EventList.jsx';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home.jsx';
 
 const App = () => {
   return (
-    <div>
-      <VideoBackground />
-      <EventList />
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home />} />
+      </Routes>
+    </Router>
   );
 };
 
