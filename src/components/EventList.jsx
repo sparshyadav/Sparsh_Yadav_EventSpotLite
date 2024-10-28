@@ -46,11 +46,11 @@ const EventList = () => {
   };
 
   return (
-    <div className="container mx-auto p-4 bg-[#1F182F] py-20 relative">
+    <div className="container mx-auto p-4 bg-[#2a2438] py-20 relative">
       <h1 className="text-3xl font-bold mb-4 text-white">Upcoming Events in Delhi</h1>
       <Slider {...settings}>
         {delhiEvents.map(event => (
-          <div className="mb-4 px-4" key={event.id}>
+          <div className="mb-4 " key={event.id}>
             <EventCard event={event} onClick={() => handleCardClick(event)} />
           </div>
         ))}
@@ -71,3 +71,4 @@ const EventList = () => {
 };
 
 export default EventList;
+
