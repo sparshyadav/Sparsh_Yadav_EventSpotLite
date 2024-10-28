@@ -50,7 +50,7 @@ const EventList = () => {
       <h1 className="text-3xl font-bold mb-4 text-white">Upcoming Events in Delhi</h1>
       <Slider {...settings}>
         {delhiEvents.map(event => (
-          <div className="mb-4 " key={event.id}>
+          <div className="mb-4 px-4" key={event.id}>
             <EventCard event={event} onClick={() => handleCardClick(event)} />
           </div>
         ))}
